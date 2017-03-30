@@ -18,7 +18,7 @@
         <aspectj.version>1.8.5</aspectj.version>
     </properties>
 
-    <name>Allure TestNG Example</name>
+    <name>Allure TestNG Example!</name>
     <description>Allure TestNG and WebDriver Usage Example</description>
 
     <dependencies>
