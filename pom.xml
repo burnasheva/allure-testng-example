@@ -12,6 +12,7 @@
     </parent>
 
     <artifactId>allure-testng-example</artifactId>
+         
     <version>1.0-SNAPSHOT</version>
 
     <properties>
