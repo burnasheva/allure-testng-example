@@ -38,7 +38,7 @@ public class SimpleTest {
 
     @Step
     public void checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2() {
-        assertThat(2, is(2));
+        assertThat(2, is(3));
     }
 
     @Test
