@@ -62,7 +62,7 @@ public class SimpleTest {
         fail("This test should be failed");
     }
 
-    @Test(dependsOnMethods = "checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2Failed")
+    @Test(enabled = false, dependsOnMethods = "checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2Failed")
     public void skippedByDependencyTest() {
     }
 
