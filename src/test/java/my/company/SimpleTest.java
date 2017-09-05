@@ -58,7 +58,7 @@ public class SimpleTest {
     }
 
     @Test
-    public void failedTest() {
+    public void checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2Failed() {
         fail("This test should be failed");
     }
 
@@ -67,7 +67,7 @@ public class SimpleTest {
     }
 
     @Test(enabled = false)
-    public void skippedTest() throws Exception {
+    public void checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2Skiped() throws Exception {
     }
 
     @DataProvider
@@ -80,7 +80,7 @@ public class SimpleTest {
     @Test(dataProvider = "dataProvider")
     @Issues({@Issue("ALR-123"), @Issue("ALR-456"), @Issue("ALR-789")})
     @TestCaseId("TMS-123")
-    public void parametrizedTest(@Parameter int parameter) {
+    public void checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2Param(@Parameter int parameter) {
         assertThat(parameter, is(2));
     }
 
