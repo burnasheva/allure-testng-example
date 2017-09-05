@@ -52,8 +52,8 @@ public class SimpleTest {
     }
 
     @Test
-    public void simpleTestWithAttachments() throws Exception {
-        assertThat(2, is(2));
+    public void simpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäß() throws Exception {
+        assertThat(2, is(3));
         makeAttach();
     }
 
