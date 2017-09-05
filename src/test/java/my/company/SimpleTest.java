@@ -51,13 +51,13 @@ public class SimpleTest {
         return "yeah, 2 is 2";
     }
 
-    @Test
+    @Test(enabled = false)
     public void simpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäßsimpleTestWithAttachmentsÜÖäß() throws Exception {
         assertThat(2, is(3));
         makeAttach();
     }
 
-    @Test
+    @Test(enabled = false)
     public void checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2checkThat2is2Failed() {
         fail("This test should be failed");
     }
